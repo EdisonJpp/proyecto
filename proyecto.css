@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background:  url(fondo5.jpg);
+    color:black;
+}
+nav{
+    background:blue;
+
+}
+nav ul li {
+    display: inline-block;
+    padding: 0px 5px;
+    margin:5px;
+    font-size: 30px;
+    color: white;
+}
+nav ul li a:hover{
+    background:white;
+    color: blue;
+}
+h1{
+    padding: 15px 35px;
+    margin: px;
+
+}
+h1 a  {
+    color:black;
+    text-decoration: none;
+} 
+ nav ul li a {
+     text-decoration: none;
+     color: white;
+
+}
+.principio img {
+    width:200px;
+    display: block;
+    position: relative;
+}
+p {
+    width: 50%;
+    color: white;
+}
+.principio{   
+    width: 25%;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0  5px 15px rgba(0, 0, 0, .5);
+    position: relative;
+    top:;
+    bottom: ;
+    right:;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    position: relative
+    ;
+
+}
+
+.principio:last-child {
+    /* margin-left: 200px; */
+}
+.main {
+    display: flex ;
+    position: relative;
+   justify-content: center;
+   margin: 30px;
+    
+    
+}
+.encabezado{
+    text-decoration: none;
+    color:white;
+    display:flex;
+}
+.encabezado img {
+    width:75px;
+}
